@@ -91,7 +91,7 @@ var searches = [
 ];
 // Create a parent item and two children.
 var parent = chrome.contextMenus.create({
-    "title": "Search with Library Search Plugin Public", // Change the name here too!
+    "title": "Search with Test Library Search Plugin", // Change the name here too!
     "id": "0",
     "contexts": ["selection"]
 });
