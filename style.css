@@ -1,21 +1,9 @@
-@font-face{
-  font-family: Vestula;
-  src: url("../fonts/vestula-regular.woff2") format("woff2"),url("../fonts/vestula-regular.woff") format("woff");
-  font-weight:normal;
-  font-style:normal;
-}
-
-@font-face{
-  font-family: Vestula;
-  src: url("../fonts/vestula-semibold.woff2") format("woff2"),url("../fonts/vestula-semibold.woff") format("woff");
-  font-weight:bold;
-  font-style:normal;
-}
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
 
 html {
     width: auto;
     height: auto;
-    font-family: Vestula, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -105,5 +93,5 @@ h3,
 h4,
 h5,
 p {
-    font-family: Vestula, arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
