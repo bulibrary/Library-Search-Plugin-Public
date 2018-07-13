@@ -73,8 +73,8 @@ $(document).ready(function () {
 //Search definitions. %s is the variable that gets replaced by the search term.
 var searches = [
     {
-        title: "Search in the Library Catalogue", // Same as above: edit to match your library's url. Modify &soruce as well at the end. Remeber to keep '%s'
-        url: "https://apac-tc.hosted.exlibrisgroup.com/primo-explore/search?vid=BOND&lang=en_US&query=any,contains,life%s&source=LibrarySearchPluginPublic"
+        title: "Search in Library Search", // Same as above: edit to match your library's url. Modify &soruce as well at the end. Remeber to keep '%s'
+        url: "https://apac-tc.hosted.exlibrisgroup.com/primo-explore/search?vid=BOND&lang=en_US&query=any,contains,%s&source=LibrarySearchPluginPublic"
   },
     {
         title: "Search in WorldCat",
