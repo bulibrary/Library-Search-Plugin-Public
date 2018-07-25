@@ -26,7 +26,7 @@ $(document).ready(function () {
         if (
             $('#library').is(":checked")) {
             //change this url to match your library's! Here is Leiden's URL as an example for ExLibris Primo users - Old UI!
-            var newLibraryURL = 'https://apac-tc.hosted.exlibrisgroup.com/primo-explore/search?vid=BOND&lang=en_US&query=any,contains,' + searchstring + '&source=LibrarySearchPluginPublic'; //you can modofy &source to anything you like. This is useful to see how many users are coming to your catalogue via the plugin, in Google Analytics.
+            var newLibraryURL = 'https://apac-tc.hosted.exlibrisgroup.com/primo-explore/search?vid=BOND&tab=default_tab&search_scope=all_resources&lang=en_US&offset=0&query=any,contains,' + searchstring + '&source=LibrarySearchPluginPublic'; //you can modofy &source to anything you like. This is useful to see how many users are coming to your catalogue via the plugin, in Google Analytics.
             // Create the new tab
             chrome.tabs.create({
                 url: newLibraryURL
@@ -64,7 +64,7 @@ $(document).ready(function () {
 var searches = [
     {
         title: "Search in Library Search", // Same as above: edit to match your library's url. Modify &soruce as well at the end. Remeber to keep '%s'
-        url: "https://apac-tc.hosted.exlibrisgroup.com/primo-explore/search?vid=BOND&lang=en_US&query=any,contains,%s&source=LibrarySearchPluginPublic"
+        url: "https://apac-tc.hosted.exlibrisgroup.com/primo-explore/search?vid=BOND&tab=default_tab&search_scope=all_resources&lang=en_US&offset=0&query=any,contains,%s&source=LibrarySearchPluginPublic"
   },
     {
         title: "Search in Google Scholar",
