@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
 
-    "name": "Test Library Search Plugin",
+    "name": "Library Search Plugin",
     "description": "Search Library Search at any moment without leaving your current page!",
     "version": "1.0.0",
     "author": "Giulio Menna, Leiden University Libraries",
@@ -9,7 +9,7 @@
     "browser_action": {
         "default_icon": "/images/icons/icon128.png",
         "default_popup": "popup.html",
-        "default_title": "Test Library Search Plugin"
+        "default_title": "Library Search Plugin"
     },
     "icons": {
         "16": "/images/icons/icon16.png",
