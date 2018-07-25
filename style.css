@@ -18,7 +18,6 @@ div#branding {
     max-width: 100%;
     height: 50px;
     max-height: 100%;
-    margin: 0 0 15px 0;
     background-color: #1d5877;
 }
 
@@ -53,6 +52,7 @@ img {
 #container .dialogInput {
     font-size: 14px;
     width: 95%;
+    margin-top: 15px;
 }
 
 .header {
@@ -81,7 +81,9 @@ input[type=submit] {
     padding: 5px 15px;
     cursor: pointer;
     border: 0 none;
-    background: #ccc;
+    background: #cc6520;
+    text-transform: uppercase;
+    color: #fff;
 }
 
 h1,
