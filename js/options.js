@@ -26,7 +26,7 @@ $(document).ready(function () {
         if (
             $('#library').is(":checked")) {
             //change this url to match your library's! Here is Leiden's URL as an example for ExLibris Primo users - Old UI!
-            var newLibraryURL = 'https://apac-tc.hosted.exlibrisgroup.com/primo-explore/search?vid=BOND&lang=en_US' + searchstring + '&source=LibrarySearchPluginPublic'; //you can modofy &source to anything you like. This is useful to see how many users are coming to your catalogue via the plugin, in Google Analytics.
+            var newLibraryURL = 'https://apac-tc.hosted.exlibrisgroup.com/primo-explore/search?vid=BOND&lang=en_US&query=any,contains,' + searchstring + '&source=LibrarySearchPluginPublic'; //you can modofy &source to anything you like. This is useful to see how many users are coming to your catalogue via the plugin, in Google Analytics.
             // Create the new tab
             chrome.tabs.create({
                 url: newLibraryURL
