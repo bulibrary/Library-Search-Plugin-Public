@@ -32,16 +32,6 @@ $(document).ready(function () {
                 url: newLibraryURL
             });
         }
-        //Worldcat
-        if (
-            $('#worldcat').is(":checked")) {
-            //alert("WorldCat checked");
-            var newWorldcatURL = 'https://www.worldcat.org/search?q=' + searchstring;
-            // Create the new tab
-            chrome.tabs.create({
-                url: newWorldcatURL
-            });
-        }
         //Google Scholar
         if (
             $('#scholar').is(":checked")) {
@@ -75,10 +65,6 @@ var searches = [
     {
         title: "Search in Library Search", // Same as above: edit to match your library's url. Modify &soruce as well at the end. Remeber to keep '%s'
         url: "https://apac-tc.hosted.exlibrisgroup.com/primo-explore/search?vid=BOND&lang=en_US&query=any,contains,%s&source=LibrarySearchPluginPublic"
-  },
-    {
-        title: "Search in WorldCat",
-        url: "https://www.worldcat.org/search?q=%s"
   },
     {
         title: "Search in Google Scholar",
