@@ -16,19 +16,20 @@ div#branding {
     font-size: .8em;
     display: block;
     max-width: 100%;
-    height: 85px;
+    height: 50px;
     max-height: 100%;
     margin: 0 0 15px 0;
+    background-color: #1d5877;
 }
 
 div#logo {
     display: block;
     float: left;
     height: 100%;
-    margin: 0 20px;
+    margin: 10px;
 }
 
-div#instructions {
+div#instructions, div#title {
     padding: 0 20px;
 }
 
@@ -60,7 +61,7 @@ img {
 }
 
 #searchContainer {
-    padding: 20px;
+    padding: 50px 20px 20px;
 }
 
 #searchInput {
@@ -69,9 +70,7 @@ img {
 
 input[type=text] {
     padding: 5px;
-    border: 2px solid #ccc;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 input[type=text]:focus {
@@ -82,8 +81,6 @@ input[type=submit] {
     padding: 5px 15px;
     cursor: pointer;
     border: 0 none;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
     background: #ccc;
 }
 
