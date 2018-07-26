@@ -2,7 +2,7 @@
     "manifest_version": 2,
 
     "name": "Library Search Plugin",
-    "description": "Search Library Search at any moment without leaving your current page!",
+    "description": "Find resources using Library Search without leaving your current page!",
     "version": "1.0.0",
     "author": "Giulio Menna, Leiden University Libraries",
     "content_security_policy": "script-src 'self' https://www.google-analytics.com https://ssl.google-analytics.com https://code.jquery.com/; object-src 'self'",
