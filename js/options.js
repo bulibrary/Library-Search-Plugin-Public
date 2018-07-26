@@ -1,7 +1,7 @@
-/*Google Analytics - not obligatory, you can delete this if you do not use it.
+//Google Analytics
 
 var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-******-*']);
+_gaq.push(['_setAccount', 'UA-101158084-3']);
 _gaq.push(['_trackPageview']);
 (function () {
     var ga = document.createElement('script');
@@ -12,7 +12,7 @@ _gaq.push(['_trackPageview']);
     s.parentNode.insertBefore(ga, s);
 })();
 
-*/
+
 
 //SEARCHBOX STUFF
 $(document).ready(function () {
